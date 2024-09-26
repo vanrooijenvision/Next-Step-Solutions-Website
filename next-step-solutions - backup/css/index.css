@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+/* Basis grid-instelling voor desktops */
+.container {
+    height: 97vh;
+    display: grid;
+    grid-template-rows: repeat(20, minmax(20px, 1fr)); 
+    grid-template-columns: repeat(22, 1fr); 
+}
+
+
+.item1 {
+    grid-column: 2 / 8; /* Plaats van item 1 aan de hand van grid */
+    grid-row: 4 /20; /* Plaats van item 1 aan de hand van grid */
+    background-color: rgba(236, 107, 81, 0.25);
+    border-radius: 20px;
+    text-align: left;
+    margin: 0 auto;
+    /* Tekststijling */
+    font-size: 1.1rem;
+    line-height: 1.3;
+    /* Voeg padding toe voor ruimte tussen de container en de tekst */
+    padding: 20px;
+    /* Zorg ervoor dat de inhoud in de container blijft en kan scrollen */
+    overflow: auto; /* Maakt scrollen mogelijk als de inhoud groter is dan de container */
+    max-height: 100%;  /* Optioneel: Beperkt de maximale hoogte van de container (of gebruik een specifieke waarde) */
+    box-shadow: 10px 6px 2px rgba(226, 45, 8, 0.25); /* box shadow*/
+}
+
+.item1 h1 {
+    margin-bottom: 10px; /* Verklein de ruimte onder het kopje */
+    font-size: 1.5rem;   /* grootte van de text aanpassen */
+}
+
+.item2 {
+    grid-column: 9 / 15;
+    grid-row: 4 / 11;
+    background-color: rgba(236, 107, 81, 0.25);
+    border-radius: 20px;
+    text-align: left;
+    margin: 0 auto;
+    /* Tekststijling */
+    font-size: 1.1rem;
+    line-height: 1.3;
+    /* Voeg padding toe voor ruimte tussen de container en de tekst */
+    padding: 20px;
+    /* Zorg ervoor dat de inhoud in de container blijft en kan scrollen */
+    overflow: auto; /* Maakt scrollen mogelijk als de inhoud groter is dan de container */
+    max-height: 100%; /* Optioneel: Beperkt de maximale hoogte van de container (of gebruik een specifieke waarde) */
+    box-shadow: 10px 6px 2px rgba(226, 45, 8, 0.25);
+}
+
+
+
+.item2 h1 {
+    margin-bottom: 10px; /* Verklein de ruimte onder het kopje */
+    font-size: 1.5rem;   /* Optioneel: grootte van het kopje aanpassen */
+}
+
+/* kijk item 1 */
+.item3 {
+    grid-column: 16 / 22; 
+    grid-row: 4 /11; 
+    background-color: rgba(236, 107, 81, 0.25);
+    border-radius: 20px;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    padding: 20px;
+    overflow: auto; 
+    max-height: 100%; 
+    box-shadow: 10px 6px 2px rgba(226, 45, 8, 0.25);
+}
+
+.item3 h1 {
+    margin-bottom: 10px; /* Verklein de ruimte onder het kopje */
+    font-size: 1.5rem;   /* Optioneel: grootte van het kopje aanpassen */
+}
+
+.item4 {/* kijk item 1 */
+    grid-column: 16 / 22; 
+    grid-row: 13 /20; 
+    background-color: rgba(236, 107, 81, 0.25);
+    border-radius: 20px;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    padding: 20px;
+    overflow: auto; 
+    max-height: 100%; 
+    box-shadow: 10px 6px 2px rgba(226, 45, 8, 0.25);
+}
+
+.item4 h1 {
+    margin-bottom: 10px; /* Verklein de ruimte onder het kopje */
+    font-size: 1.5rem;   /* Optioneel: grootte van het kopje aanpassen */
+}
+
+.item5 {/* kijk item 1 */
+    grid-column: 9 / 15;
+    grid-row: 13 /20;
+    background-color: rgba(236, 107, 81, 0.25);
+    border-radius: 20px;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    padding: 20px;
+    overflow: auto; 
+    max-height: 100%; 
+    box-shadow: 10px 6px 2px rgba(226, 45, 8, 0.25);
+}
+
+.item5 h1 {
+    margin-bottom: 10px; /* Verklein de ruimte onder het kopje */
+    font-size: 1.5rem;   /* Optioneel: grootte van het kopje aanpassen */
+}
+
+.geschiedenis {
+    grid-column: 2 / 8; /* Plaats van item 1 aan de hand van grid */
+    grid-row: 4 /20; /* Plaats van item 1 aan de hand van grid */
+    background-color: rgba(236, 107, 81, 0.25);
+    border-radius: 20px;
+    text-align: left;
+    margin: 0 auto;
+    /* Tekststijling */
+    font-size: 1.1rem;
+    line-height: 1.3;
+    /* Voeg padding toe voor ruimte tussen de container en de tekst */
+    padding: 20px;
+    /* Zorg ervoor dat de inhoud in de container blijft en kan scrollen */
+    overflow: scroll; /* Maakt scrollen mogelijk als de inhoud groter is dan de container */
+
+    max-height: 100%;  /* Optioneel: Beperkt de maximale hoogte van de container (of gebruik een specifieke waarde) */
+    box-shadow: 10px 6px 2px rgba(226, 45, 8, 0.25); /* box shadow*/
+}
+
+.geschiedenis h1 {
+    margin-bottom: 10px; /* Verklein de ruimte onder het kopje */
+    font-size: 1.5rem;   /* grootte van de text aanpassen */
+}
+
+.wiezijnwij {
+    grid-column: 9 / 22;
+    grid-row: 4 / 20;
+    background-color: rgba(236, 107, 81, 0.25);
+    border-radius: 20px;
+    text-align: left;
+    margin: 0 auto;
+    /* Tekststijling */
+    font-size: 1.1rem;
+    line-height: 1.3;
+    /* Voeg padding toe voor ruimte tussen de container en de tekst */
+    padding: 20px;
+    /* Zorg ervoor dat de inhoud in de container blijft en kan scrollen */
+    overflow: auto; /* Maakt scrollen mogelijk als de inhoud groter is dan de container */
+    max-height: 100%; /* Optioneel: Beperkt de maximale hoogte van de container (of gebruik een specifieke waarde) */
+    box-shadow: 10px 6px 2px rgba(226, 45, 8, 0.25);
+}
+
+.wiezijnwij h1 {
+    margin-bottom: 10px; /* Verklein de ruimte onder het kopje */
+    font-size: 1.5rem;   /* Optioneel: grootte van het kopje aanpassen */
+}
+
+.navbar{ /*navbar en grid van de navbar.*/
+    grid-column: 1 /22;
+    grid-row: 1/3;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    align-items: center;
+    background-color: transparent;
+    position: relative;
+
+}
+
+.navbar-links{ /* instellingen Home About etc. met gap */
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+
+    
+}
+.navbar-links a {
+    font-size: 19px; /* grote van de texst */
+    color: #222;
+    text-decoration: none;
+    font-weight: 600;/* dikte van de texst */
+    transition: .5s;
+    font-family: poppins, sans-serif;
+}
+
+.navbar a:hover {
+    color: rgba(236, 107, 81, 1);
+}
+
+.container img { /*logo png */
+    height: 50px;
+    width: auto;
+    object-fit: cover; 
+    background-color: white;
+    border-radius: 5px;
+  } 
+  
+  
+
+.account{  /*account en grid account icoon*/
+    display: flex;
+    grid-column: 22/23;
+    grid-row: 1/3;
+    background-color: white;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.account a{ /* account icoon instellingen */
+    color: rgb(7, 7, 7);
+    font-size: 40px;
+    padding-top: 20px;
+    background-color:transparent;
+    transition: .5s;
+}
+
+.account a:hover { /* account hover actie */
+    color: rgba(236, 107, 81, 1);
+}
+
+.item2::-webkit-scrollbar {
+    display: block;
+    width: 5px;
+}
+.item2::-webkit-scrollbar-track {
+    background: transparent;
+}
+    
+.item2::-webkit-scrollbar-thumb {
+    background-color: rgb(167, 166, 166);
+    border-right: none;
+    border-left: none;
+    border-radius: 30px;
+}
+
+
+  .item2::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 10px; 
+}
+
+.item2::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+/* Responsieve stijl voor tablets 
+@media (max-width: 1024px) {
+    .container {
+        grid-template-rows: repeat(6, minmax(50px, 1fr));
+        grid-template-columns: repeat(6, 1fr);
+    }
+*/
+    /* Voor tablets, plaats item 3 rechts onderaan in een kleinere grid 
+    .item1 {
+        grid-column: 6 / 7; /* Laatste kolom (kolom 6 op tablets) 
+        grid-row: 6 / 7; /* Laatste rij (rij 6 op tablets) 
+        background-color: blue;
+    }
+    .item2 {
+        grid-column: 6 / 7; /* Laatste kolom (kolom 6 op tablets) 
+        grid-row: 6 / 7; /* Laatste rij (rij 6 op tablets) 
+        background-color: blue;
+    }
+    .item3 {
+        grid-column: 6 / 7; /* Laatste kolom (kolom 6 op tablets) 
+        grid-row: 6 / 7; /* Laatste rij (rij 6 op tablets) 
+        background-color: blue;
+    }
+    .item4 {
+        grid-column: 6 / 7; /* Laatste kolom (kolom 6 op tablets) 
+        grid-row: 6 / 7; /* Laatste rij (rij 6 op tablets) 
+        background-color: blue;
+    }
+}
+
+/* Responsieve stijl voor mobiele telefoons 
+@media (max-width: 768px) {
+    .container {
+        grid-template-rows: repeat(4, minmax(50px, 1fr));
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /* Voor telefoons, plaats item 3 rechts onderaan in een nog kleinere grid 
+    .item1 {
+        grid-column: 4 / 6; /* Laatste kolom (kolom 4 op telefoons) 
+        grid-row: 4 / 5; /* Laatste rij (rij 4 op telefoons) 
+        background-color: red;
+    }
+    .item2 {
+        grid-column: 4 / 6; /* Laatste kolom (kolom 4 op telefoons) 
+        grid-row: 4 / 5; /* Laatste rij (rij 4 op telefoons) 
+        background-color: red;
+    }
+    .item3 {
+        grid-column: 4 / 6; /* Laatste kolom (kolom 4 op telefoons) 
+        grid-row: 4 / 5; /* Laatste rij (rij 4 op telefoons) 
+        background-color: red;
+    }
+    .item4 {
+        grid-column: 4 / 6; /* Laatste kolom (kolom 4 op telefoons) 
+        grid-row: 4 / 5; /* Laatste rij (rij 4 op telefoons) 
+        background-color: red;
+    }
+}
+*/
