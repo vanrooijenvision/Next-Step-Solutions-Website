@@ -230,6 +230,33 @@
     color: rgba(236, 107, 81, 1);
 }
 
+
+.item1::-webkit-scrollbar {
+    display: block;
+    width: 5px;
+}
+.item1::-webkit-scrollbar-track {
+    background: transparent;
+}
+    
+.item1::-webkit-scrollbar-thumb {
+    background-color: rgb(137, 135, 135);
+    border-right: none;
+    border-left: none;
+    border-radius: 30px;
+}
+
+
+  .item1::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 10px; 
+}
+
+.item1::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 10px;
+}
+
 .item2::-webkit-scrollbar {
     display: block;
     width: 5px;
@@ -239,7 +266,7 @@
 }
     
 .item2::-webkit-scrollbar-thumb {
-    background-color: rgb(167, 166, 166);
+    background-color: rgb(137, 135, 135);
     border-right: none;
     border-left: none;
     border-radius: 30px;
@@ -256,7 +283,83 @@
     margin-top: 10px;
 }
 
+.item3::-webkit-scrollbar {
+    display: block;
+    width: 5px;
+}
+.item3::-webkit-scrollbar-track {
+    background: transparent;
+}
+    
+.item3::-webkit-scrollbar-thumb {
+    background-color: rgb(137, 135, 135);
+    border-right: none;
+    border-left: none;
+    border-radius: 30px;
+}
 
+
+  .item3::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 10px; 
+}
+
+.item3::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 10px;
+}
+
+.item4::-webkit-scrollbar {
+    display: block;
+    width: 5px;
+}
+.item4::-webkit-scrollbar-track {
+    background: transparent;
+}
+    
+.item4::-webkit-scrollbar-thumb {
+    background-color: rgb(137, 135, 135);
+    border-right: none;
+    border-left: none;
+    border-radius: 30px;
+}
+
+
+  .item4::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 10px; 
+}
+
+.item4::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 10px;
+}
+
+.item5::-webkit-scrollbar {
+    display: block;
+    width: 5px;
+}
+.item5::-webkit-scrollbar-track {
+    background: transparent;
+}
+    
+.item5::-webkit-scrollbar-thumb {
+    background-color: rgb(137, 135, 135);
+    border-right: none;
+    border-left: none;
+    border-radius: 30px;
+}
+
+
+  .item5::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 10px; 
+}
+
+.item5::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 10px;
+}
 
 
 
